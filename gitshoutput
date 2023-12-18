@@ -1,0 +1,121 @@
+RLAM:/u/rlam/repo>git.sh
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Connecticut/Customer_Information/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[main f666607] Run git.sh to add Customer_Information
+ Committer: RLAM <RLAM@TVT7111.svl.ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 85 files changed, 12403 insertions(+)
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Bms/ssmap.bms
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgacdb01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgacdb02.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgacus01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgacvs01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgapdb01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgapol01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgapvs01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgastat1.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgdpdb01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgdpol01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgdpvs01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgicdb01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgicus01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgicvs01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgipdb01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgipol01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgipvs01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgsetup.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgstsq.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgtestc1.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgtestp1.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgtestp2.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgtestp3.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgtestp4.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgucdb01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgucus01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgucvs01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgupdb01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgupol01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgupvs01.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Cobol/lgwebst5.cbl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/bzuiterx.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hbrc.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hbrws.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hccmare2.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hccmarea.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hcerrspd.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hcerrsws.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hcmaps.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hcmrst01.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hcprst01.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/hctrst01.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/lgcmarea.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/lgcmarer.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/lgpolicy.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/process.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/sqlca.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Copy/ssmap.cpy
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Jcl/hello1.jcl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Jcl/hello2.jcl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Jcl/iebr14.jcl
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgacdb01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgacdb02.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgacus01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgacvs01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgapbr01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgapdb01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgapol01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgapvs01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgastat1.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgdpdb01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgdpol01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgdpvs01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgicdb01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgicus01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgicvs01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgipdb01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgipol01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgipvs01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgsetup.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgstsq.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgtestc1.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgtestp1.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgtestp2.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgtestp3.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgtestp4.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgucdb01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgucus01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgucvs01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgupdb01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgupol01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgupvs01.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/lgwebst5.lnk
+ create mode 100644 Connecticut/Customer_Information/MK_Subsystem/Link/tlgicdb0.lnk
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 9.33 KiB | 3.11 MiB/s, done.
+Total 14 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To github.com:raylamgit/Maverick.git
+   9600032..f666607  main -> main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+RLAM:/u/rlam/repo>
